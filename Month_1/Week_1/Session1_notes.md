@@ -8,7 +8,7 @@
 - Perform basic input/output operations 
 
 ### Major uses - advantange 
-- Used in statistics and bioinformatic 
+- Used in statistics and bioinformatics 
 - Open source 
 - Good Packages available like ggplot2 (Used for visualisation)
 
