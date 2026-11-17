@@ -24,3 +24,5 @@
 | Console | Execute commands and view outputs |
 | Environment | Display stored objects, variables and datasets |
 | Plots Panel | Display graphs and visualisations |
+
+![Rstudio Interface](C:\User_Programs\bioinformatics-data-analysis-internship\Month_1\Week_1\Images\Rstudio_interface.png)
