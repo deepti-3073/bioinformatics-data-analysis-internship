@@ -80,7 +80,7 @@ Cat("hello", name)
 - tidyverse is used for data manupulation and visualisation 
 - some of the packages in tidyverse commonly used are **readr, dplyr, ggplot2, tibble**
 
-to search of packages under tidyverse 
+to search for packages under tidyverse 
 ```r
 library(tidyverse)
 search() #lists all the packages
@@ -137,3 +137,19 @@ if there are missing values -->code won't work
 Note: 
 - values within a vector should have the same data type
 - different vectors ina a dataframe can have different datatypes
+
+### Basic calculation using R 
+```r
+a <- 15
+b <- 4
+
+c <- a + b #additon 
+d <- a/b #divison
+e <- a^b #exponential 
+
+# To print 
+print(c, d, e)
+
+# To display datatype
+class(c)(d)(e)
+```
