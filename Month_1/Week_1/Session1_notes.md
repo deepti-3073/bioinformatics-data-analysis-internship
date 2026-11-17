@@ -23,6 +23,7 @@
 - environment - displays stored objects such as variables, datasets, functions
 - plot panel - shows garphs and visualisation
 
-\|script editor\|Environment\|
-\|console\|plots panel\|
+|script editor|Environment|
+|---|---|
+|console|plots panel|
 
