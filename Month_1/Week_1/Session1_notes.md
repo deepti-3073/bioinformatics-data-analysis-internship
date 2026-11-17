@@ -165,3 +165,20 @@ class(temperature_character)
 Output 
 `Character`
 
+### Input Function
+use `Readline()` then use `cat()`
+
+### Dynamic typing
+the process of overwritting a variable is referred to as dynamic typing 
+
+```r
+x<- 10
+x<- "Hello"
+```
+
+### Dataset related commands 
+`data(mtcars)`
+`head(mtcars,10)` displays first 10 rows 
+`str(mtcars)` displays the structure of mtcars, how the dataframe looks like entirely
+`dim(mtcars)` tells the dimension of the dataframe. The rows X columns value is displayed 
+
