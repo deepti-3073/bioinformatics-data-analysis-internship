@@ -18,12 +18,9 @@
 - Rstudio --> Interface
 
 ### Rstudio interface (interactive window)
-- script Editor - write and edit R codes
-- console - executes commands, view outputs
-- environment - displays stored objects such as variables, datasets, functions
-- plot panel - shows garphs and visualisation
-
-|script editor|Environment|
+| RStudio Panel | Function |
 |---|---|
-|console|plots panel|
-
+| Script Editor | Write and edit R code |
+| Console | Execute commands and view outputs |
+| Environment | Display stored objects, variables and datasets |
+| Plots Panel | Display graphs and visualisations |
