@@ -103,3 +103,37 @@ Rstudio has buit in datasets that can be used for practices
 2. iris 
 - This is a plant based dataset 
 
+### Creating a dataframe in R
+
+**Vector --> 1D array**
+this is similar to a list in python 
+
+`Variable = c(1,2,3,4,5)`
+
+- the `c` here means combine 
+- it remembers and reads it as a single column 
+
+**Dataframe --> 2D array, tabular structure**
+- dataframe is a collection of various "vectors" that is connected 
+
+Example:
+```r
+gene.data<- data.frame(
+	sample_ID = c("s1", "s2", "s3", "s4", "s5"),
+	Treatment = c("control", "placebo", "drugA", "drugB", "drugC"),
+	Expression_levels = c(5.2, 4.8, 5.5, 7.1, 8.2)
+	)
+```
+In the above code the varibles and observation are the following 
+
+|variables|observation|
+|---|---|
+|sample_ID|s1, s2, s3, s4, s5|
+|Treatment|control, placebo, drugA, drugB, drugC|
+|Expression_levels|5.2, 4.8, 5.5, 7.1, 8.2|
+
+if there are missing values -->code won't work
+
+Note: 
+- values within a vector should have the same data type
+- different vectors ina a dataframe can have different datatypes
