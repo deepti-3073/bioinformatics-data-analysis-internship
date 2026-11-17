@@ -13,21 +13,24 @@
 
 ```mermaid
 flowchart TD
-A([Control Flow]) --> B[Conditional flow - if]
-A --> C[if-Else flow]
-A --> D[loop flow]
-B --> E[start]
-E --> |condition true| F[yes]
-F --> G [Execute code]
-E --> |condition false| H[no]
-H --> I[Skip]
-C --> J[Start]
-J --> K {Condition true?}
-K --> |yes| L[Execute Block A]
-K --> |no| M[Execute Block B]
-D --> N[start]
-N --> O{Condition true?}
-O --> |yes| P[Execute loop body]
-p --> Q[check condition again]
-O --> |no| R[stop]
+    A([Control Flow]) --> B[Conditional flow - if]
+    A --> C[if-Else flow]
+    A --> D[Loop flow]
+
+    B --> E[Start]
+    E --> |Condition true| F[Yes]
+    F --> G[Execute code]
+    E --> |Condition false| H[No]
+    H --> I[Skip code]
+
+    C --> J[Start]
+    J --> K{Condition true?}
+    K --> |Yes| L[Execute Block A]
+    K --> |No| M[Execute Block B]
+
+    D --> N[Start]
+    N --> O{Condition true?}
+    O --> |Yes| P[Execute loop body]
+    P --> O
+    O --> |No| R[Stop]
 ```
