@@ -153,3 +153,15 @@ print(c, d, e)
 # To display datatype
 class(c)(d)(e)
 ```
+### Converting Datatypes
+to convert data types from one form to another we can use `as.` 
+
+Example: 
+```r
+temperature <- 37.5
+temperature_character <- as.character(temperature)
+class(temperature_character)
+```
+Output 
+`Character`
+
